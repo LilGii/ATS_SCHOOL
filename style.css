@@ -333,7 +333,7 @@ body:has(button:hover) .cursor-follower { width: 48px; height: 48px; border-colo
   to { opacity: 0.75; transform: translateY(0); }
 }
 @media (max-width: 900px) {
-  .hero__tower { right: -5%; width: clamp(180px, 40vw, 320px); opacity: 0.5; }
+  .hero__tower { display: none; }
 }
 @media (max-width: 768px) {
   .hero__tower { display: none; }
