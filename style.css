@@ -333,7 +333,7 @@ body:has(button:hover) .cursor-follower { width: 48px; height: 48px; border-colo
   to { opacity: 0.75; transform: translateY(0); }
 }
 @media (max-width: 900px) {
-  .hero__tower { display: none; }
+  .hero__tower { right: -5%; width: clamp(180px, 40vw, 320px); opacity: 0.5; }
 }
 @media (max-width: 768px) {
   .hero__tower { display: none; }
@@ -420,7 +420,7 @@ body:has(button:hover) .cursor-follower { width: 48px; height: 48px; border-colo
 .hw {
   display: inline-block;
   font-family: var(--f-display);
-  font-size: clamp(3.5rem, 7.5vw, 9.5rem);
+  font-size: clamp(1.5rem, 7.5vw, 9.5rem);
   font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--white);
